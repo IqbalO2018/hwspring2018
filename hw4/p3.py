@@ -1,4 +1,6 @@
-print("please enter a number between numbers 1-10")
-raw_input(number)
-number = (raw_input)
-print(number)
+import random
+x = int(raw_input('Please provide a number'))
+y = int(raw_input('please provide another number'))
+
+z = random.randint(x,y)
+print (z)
