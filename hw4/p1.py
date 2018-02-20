@@ -1,26 +1,9 @@
-s=raw_input("Please write a Sentence. ")
+print("please type a sentence")
+s = raw_input()
+s = s.split()
 
-halfway =len(s)/2
+sentence = "\n ".join(s)
 
-print (s[halfway])
-
-print ("at s[0]")
-
-
-last = len(s) - 1
-
-print(s[last])
-
-print(s[-1])
-
-firsthalf = s[0:halfway]
-
-lasthalf = s[halfway:last ]
-
-print ("this should be first/ last half")
-
-print(firsthalf)
-
-print(lasthalf)
+print(sentence)
 
 
