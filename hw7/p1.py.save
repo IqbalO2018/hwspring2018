@@ -1,0 +1,6 @@
+def findUpper(sentence):
+	words = []
+
+	return words
+upperWords = findUpper(
+for(word in upperWords): 
